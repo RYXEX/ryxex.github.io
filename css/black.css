@@ -19,25 +19,25 @@ body {
 }
 
 @media screen and (-webkit-min-device-pixel-ratio: 2), screen and (min-resolution: 2dppx) {
-	body {
-		-moz-osx-font-smoothing: grayscale;
-		-webkit-font-smoothing: subpixel-antialiased;
-	}
+    body {
+        -moz-osx-font-smoothing: grayscale;
+        -webkit-font-smoothing: subpixel-antialiased;
+    }
 }
 
 button:focus {
-	outline: 0;
+    outline: 0;
 }
 
 body::-webkit-scrollbar,
 .scroll::-webkit-scrollbar {
-	width: 5px;
-	height: 5px;
+    width: 5px;
+    height: 5px;
 }
 
 body::-webkit-scrollbar-track,
 .scroll::-webkit-scrollbar-track {
-	background: #424443;
+    background: #424443;
 }
 
 body::-webkit-scrollbar-thumb,
@@ -98,7 +98,7 @@ a.navbar-brand {
   float: none;
 }
 .row .no-float:not(:last-child) {
-	border-right: 2px solid #18252E;
+    border-right: 2px solid #545454;
 }
 
 .row-header {
@@ -110,7 +110,7 @@ a.navbar-brand {
   font-weight: bold;
   text-transform: capitalize;
   color: #fff;
-  border-bottom: 2px solid #18252E;
+  border-bottom: 2px solid #545454;
 }
 
 .row-box {
@@ -152,7 +152,7 @@ tr.table-header {
 }
 
 .table-header {
-  border-bottom: 2px solid #18252E;
+  border-bottom: 2px solid #545454;
 }
 
 tr.mid-header {
@@ -646,7 +646,7 @@ fieldset[disabled] .form-control {
 .modal-header {
   color: #ced2d5;
   background: #1E2B34;
-  border-bottom: 2px solid #18252E;
+  border-bottom: 2px solid #545454;
 }
 
 .alertify .ajs-header .fa,
@@ -658,7 +658,7 @@ fieldset[disabled] .form-control {
 .modal-footer {
   color: #ced2d5;
   background: #1E2B34;
-  border-top: 2px solid #18252E;
+  border-top: 2px solid #545454;
 }
 
 .alertify .ajs-footer .ajs-buttons.ajs-auxiliary .ajs-button,
@@ -673,12 +673,12 @@ fieldset[disabled] .form-control {
   cursor: pointer;
   color: #fff;
   user-select: none;
-  background-color: #3d84d6;
+  background-color: #40d77a;
   transition: background-color .2s ease-in-out;
 }
 
 .ajs-button.btn-danger {
-	background: #f43d3d;
+    background: #f43d3d;
 }
 
 .modal-header .close {
@@ -697,11 +697,11 @@ fieldset[disabled] .form-control {
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	#balance {
-		height: 330px;
-	}
+    #balance {
+        height: 330px;
+    }
 
-	.row-box.height4 {
-		height: 400px;
-	}
+    .row-box.height4 {
+        height: 400px;
+    }
 }
