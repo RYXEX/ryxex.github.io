@@ -7,7 +7,7 @@ html,body {
   height: 100%;
   overflow-x: auto;
   overflow-y: hidden;
-  font-family: 'Ubuntu', Ubuntu;
+  font-family: 'Open+Sans', sans-serif;
   background: #ffffff;
 }
 
@@ -130,7 +130,7 @@ tr.clickable-row:hover {
   color: #ff4d4d;
 }
 .buy {
-  color: #00ff80;
+  color: #2aaf5f;
 }
 
 .scroll {
