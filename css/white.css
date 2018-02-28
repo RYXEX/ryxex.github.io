@@ -127,10 +127,10 @@ tr.clickable-row:hover {
 }
 
 .sell {
-  color: #f00;
+  color: #ff4d4d;
 }
 .buy {
-  color: #0f0;
+  color: #00ff80;
 }
 
 .scroll {
