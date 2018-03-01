@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Abel:400,500';
+@import 'https://fonts.googleapis.com/css?family=Abel:400,700';
 
 html,
 body {
@@ -9,7 +9,7 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   font-family: 'Abel', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   background: #2e2e2e;
   color: #c436e7;
 }
