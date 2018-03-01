@@ -23,9 +23,9 @@
   "gasOrder": 250000,
   "minOrderSize": 0.001,
   "socketServer": ["https://socket.etherdelta.com"],
-  "userCookie": "RYXEX",
-  "eventsCacheCookie": "RYXEX_eventsCache",
-  "ordersCacheCookie": "RYXEX_ordersCache",
+  "userCookie": "EtherDelta",
+  "eventsCacheCookie": "EtherDelta_eventsCache",
+  "ordersCacheCookie": "EtherDelta_ordersCache",
   "etherscanAPIKey": "GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE",
   "tokens": [
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 },
