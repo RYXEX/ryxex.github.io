@@ -19,8 +19,8 @@
   "gasOrder": 250000,
   "minOrderSize": 0.001,
   "socketServer": ["https://socket01.etherdelta.com","https://socket02.etherdelta.com","https://socket03.etherdelta.com","https://socket04.etherdelta.com","https://socket05.etherdelta.com","https://socket06.etherdelta.com"],  "userCookie": "EtherDelta",
-  "eventsCacheCookie": "EtherDelta_eventsCache",
-  "ordersCacheCookie": "EtherDelta_ordersCache",
+  "eventsCacheCookie": "RYXEX_eventsCache",
+  "ordersCacheCookie": "RYXEX_ordersCache",
   "etherscanAPIKey": "GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE",
   "ledgerPath": "m/44'/60'/0'/0",
   "bases": [
@@ -42,5 +42,5 @@
     { "addr": "0x0371a82e4a9d0a4312f3ee2ac9c6958512891372", "name": "STU", "decimals": 18 },
     { "addr": "0x03df4c372a29376d2c8df33a1b5f001cd8d68b0e", "name": "BITCOINEREUM", "decimals": 8 },
   ],
-  "defaultPair": { "token": "DAI", "base": "ETH" }
+  "defaultPair": { "token": "BALI", "base": "ETH" }
 }
