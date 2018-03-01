@@ -42,8 +42,8 @@ body::-webkit-scrollbar-track,
 
 body::-webkit-scrollbar-thumb,
 .scroll::-webkit-scrollbar-thumb {
-  background-color: #233540;
-  border: 1px solid #233540;
+  background-color: #636363;
+  border: 1px solid #636363;
   transition: all 0.2s ease-out;
 }
 
@@ -142,7 +142,7 @@ a.navbar-brand {
 }
 .row-box.table-header {
   height: 35px;
-  border-bottom: 1px solid #15232c;
+  border-bottom: 1px solid #3c3c3c;
   padding-top: 5px;
 }
 tr.table-header {
@@ -171,11 +171,11 @@ tr.mid-header {
 }
 tr.clickable-row:hover {
   cursor: pointer;
-  background: #1B2831;
+  background: #636363;
 }
 
 .sell {
-  color: #ff9600;
+  color: #fb9f27;
 }
 .buy {
   color: #40d77a;
@@ -213,7 +213,7 @@ tr.clickable-row:hover {
   line-height: 17px;
   width: 100%;
   text-align: center;
-  background: #2f3d45;
+  background: #3c3c3c;
   color: #fff;
   border: 0;
 }
@@ -224,12 +224,12 @@ tr.clickable-row:hover {
 }
 .nav-tabs.columns > li > a:hover {
   color: #FFF;
-  background: #33424a;
+  background: #636363;
   border: 0;
 }
 
 .nav-tabs.columns > li.active > a:hover {
-  background: #15232c;
+  background: #3c3c3c;
   color: #fff;
 }
 
@@ -294,7 +294,7 @@ a:hover {
   border-radius: 200px;
 }
 .token:hover {
-  background: #036;
+  background: #505650;
   color: #fff;
   cursor: pointer;
 }
@@ -314,7 +314,7 @@ a:hover {
 }
 
 .modal-dialog a {
-  color: #33f;
+  color: #3ca565;
 }
 
 .modal-dialog a:hover {
@@ -362,7 +362,7 @@ pre code {
 }
 
 .warning {
-  color: #f00;
+  color: #fb9f27;
 }
 
 .table-balances {
@@ -393,28 +393,28 @@ pre code {
 
 #chartPrice {
   overflow: hidden;
-  background: #1E2B34 !important;
+  background: #3c3c3c !important;
 }
 
 #chartPrice [fill="#cccccc"] {
   fill: #cccccc;
 }
 
-#chartPrice [fill="#ff0000"] {
-  fill: #ff6939;
+#chartPrice [fill="#fb9f27"] {
+  fill: #fb9f27;
 }
 
 #chartDepth {
   overflow: hidden;
-  background: #1E2B34 !important;
+  background: #3c3c3c !important;
 }
 
 #chartDepth [fill="#cccccc"] {
   fill: #4da53c;
 }
 
-#chartDepth [fill="#ff0000"] {
-  fill: #ff6939;
+#chartDepth [fill="#fb9f27"] {
+  fill: #fb9f27;
 }
 
 .big-icon {
@@ -467,7 +467,7 @@ pre code {
 
 #bs-example-navbar-collapse-1 .navbar-nav a {
   font-weight: bold;
-  color: #15232c !important;
+  color: #3c3c3c !important;
   font-size: 12px;
 }
 
@@ -476,11 +476,11 @@ pre code {
 }
 
 .badge {
-  background-color: #2f3d45;
+  background-color: #35d976;
 }
 
 .label-success {
-  background-color: #4da53c;
+  background-color: #35d976;
 }
 
 .form-control,
@@ -490,7 +490,7 @@ fieldset[disabled] .form-control {
   width: 100%;
   height: 36px;
   padding: 8px 5px 8px 10px;
-  border: 1px solid #565f66;
+  border: 1px solid #a7a7a7;
   border-radius: 2px;
   outline: 0;
   box-shadow: none;
@@ -498,15 +498,15 @@ fieldset[disabled] .form-control {
   font-weight: normal;
   text-align: left;
   color: #fff;
-  background-color: #404a52;
-  font-family: 'Open Sans', sans-serif;
+  background-color: #636363;
+  font-family: 'Abel', sans-serif;
 }
 
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
   color: #fff;
-  background-color: #303030;
+  background-color: #636363;
   opacity: 0.6;
 }
 
@@ -545,13 +545,13 @@ fieldset[disabled] .form-control {
   cursor: pointer;
   color: #fff;
   user-select: none;
-  background-color: #3d84d6 !important;
+  background-color: #3ec172 !important;
   transition: background-color .2s ease-in-out;
 }
 
 .btn:hover,
 .btn-primary:hover {
-  background-color: #3a7bc7 !important;
+  background-color: #3ec172 !important;
 }
 
 .btn-success {
@@ -565,12 +565,12 @@ fieldset[disabled] .form-control {
   cursor: pointer;
   color: #fff;
   user-select: none;
-  background-color: #4da53c !important;
+  background-color: #35d976 !important;
   transition: background-color .2s ease-in-out;
 }
 
 .btn-success:hover {
-  background-color: #449235 !important;
+  background-color: #3ca565 !important;
 }
 
 .btn-danger {
@@ -584,7 +584,7 @@ fieldset[disabled] .form-control {
   cursor: pointer;
   color: #fff;
   user-select: none;
-  background-color: #ff6939 !important;
+  background-color: #fb9f27 !important;
   transition: background-color .2s ease-in-out;
 }
 
@@ -598,18 +598,18 @@ fieldset[disabled] .form-control {
   cursor: pointer;
   color: #fff;
   user-select: none;
-  background-color: #ff5620 !important;
+  background-color: #fb9f27 !important;
   transition: background-color .2s ease-in-out;
 }
 
 #myTrades tbody tr:nth-child(even),
 #myFunds tbody tr:nth-child(even) {
-  background: #1B2831;
+  background: #3c3c3c;
 }
 
 #volume tr:hover,
 #trades tr:hover {
-  background-color: #1B2831;
+  background-color: #3c3c3c;
 }
 
 #trades {
@@ -627,25 +627,25 @@ fieldset[disabled] .form-control {
 .modal-body,
 .modal-content {
   color: #ced2d5;
-  background: #1E2B34;
+  background: #3c3c3c;
 }
 
 .alertify .ajs-body .ajs-content a,
 .modal-body a,
 .modal-content a {
-  color: #337ab7;
+  color: #35d976;
 }
 
 .alertify .ajs-body .ajs-content a:hover,
 .modal-body a:hover,
 .modal-content a:hover {
-  color: #408cce;
+  color: #3ca565;
 }
 
 .alertify .ajs-header,
 .modal-header {
   color: #ced2d5;
-  background: #1E2B34;
+  background: #3c3c3c;
   border-bottom: 2px solid #d7d7d7;
 }
 
@@ -657,7 +657,7 @@ fieldset[disabled] .form-control {
 .alertify .ajs-footer,
 .modal-footer {
   color: #ced2d5;
-  background: #1E2B34;
+  background: #3c3c3c;
   border-top: 2px solid #d7d7d7;
 }
 
@@ -678,7 +678,7 @@ fieldset[disabled] .form-control {
 }
 
 .ajs-button.btn-danger {
-    background: #f43d3d;
+    background: #fb9f27;
 }
 
 .modal-header .close {
