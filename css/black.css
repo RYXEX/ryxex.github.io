@@ -9,7 +9,7 @@ body {
   overflow-x: auto;
   overflow-y: hidden;
   font-family: 'Abel', sans-serif;
-  font-size: 14px;
+  font-size: 15px;
   background: #2e2e2e;
   color: #c436e7;
 }
@@ -409,8 +409,8 @@ pre code {
   background: #3c3c3c !important;
 }
 
-#chartDepth [fill="#cccccc"] {
-  fill: #4da53c;
+#chartDepth [fill="#35d976"] {
+  fill: #35d976;
 }
 
 #chartDepth [fill="#fb9f27"] {
@@ -476,11 +476,11 @@ pre code {
 }
 
 .badge {
-  background-color: #35d976;
+  background-color: #2fbe68;
 }
 
 .label-success {
-  background-color: #35d976;
+  background-color: #2fbe68;
 }
 
 .form-control,
