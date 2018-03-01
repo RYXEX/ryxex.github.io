@@ -98,7 +98,7 @@ a.navbar-brand {
   float: none;
 }
 .row .no-float:not(:last-child) {
-    border-right: 2px solid #ffffff;
+    border-right: 2px solid #d7d7d7;
 }
 
 .row-header {
@@ -110,7 +110,13 @@ a.navbar-brand {
   font-weight: bold;
   text-transform: uppercase;
   color: #fff;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #d7d7d7;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%)
 }
 
 .row-box {
@@ -152,7 +158,7 @@ tr.table-header {
 }
 
 .table-header {
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #d7d7d7;
 }
 
 tr.mid-header {
@@ -646,7 +652,7 @@ fieldset[disabled] .form-control {
 .modal-header {
   color: #ced2d5;
   background: #1E2B34;
-  border-bottom: 2px solid #ffffff;
+  border-bottom: 2px solid #d7d7d7;
 }
 
 .alertify .ajs-header .fa,
@@ -658,7 +664,7 @@ fieldset[disabled] .form-control {
 .modal-footer {
   color: #ced2d5;
   background: #1E2B34;
-  border-top: 2px solid #ffffff;
+  border-top: 2px solid #d7d7d7;
 }
 
 .alertify .ajs-footer .ajs-buttons.ajs-auxiliary .ajs-button,
