@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';
+@import 'https://fonts.googleapis.com/css?family=Abel:400,500';
 
 html,
 body {
@@ -8,9 +8,9 @@ body {
   height: 100%;
   overflow-x: auto;
   overflow-y: hidden;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Abel', sans-serif;
   font-size: 12px;
-  background: #393939;
+  background: #2e2e2e;
   color: #c436e7;
 }
 
@@ -105,10 +105,10 @@ a.navbar-brand {
   width: 100%;
   padding: 8px;
   height: 38px;
-  background: #2f3d45;
-  font-size: 16px;
+  background: #525654;
+  font-size: 14px;
   font-weight: bold;
-  text-transform: capitalize;
+  text-transform: uppercase;
   color: #fff;
   border-bottom: 2px solid #ffffff;
 }
@@ -506,7 +506,7 @@ fieldset[disabled] .form-control {
 .form-control[readonly],
 fieldset[disabled] .form-control {
   color: #fff;
-  background-color: #1E2B34;
+  background-color: #303030;
   opacity: 0.6;
 }
 
