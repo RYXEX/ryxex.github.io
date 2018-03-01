@@ -175,10 +175,10 @@ tr.clickable-row:hover {
 }
 
 .sell {
-  color: #fb9f27;
+  color: #35d976;
 }
 .buy {
-  color: #40d77a;
+  color: #fb9f27;
 }
 
 .scroll {
@@ -187,7 +187,7 @@ tr.clickable-row:hover {
 
 .row-box.nav-header {
   height: 35px;
-  border-bottom: 1px solid #15232c;
+  border-bottom: 1px solid #3c3c3c;
 }
 
 .nav-tabs > li > a {
@@ -219,7 +219,7 @@ tr.clickable-row:hover {
 }
 .nav-tabs.columns > li.active > a {
   color: #fff;
-  background: #15232c;
+  background: #3c3c3c;
   border: 0;
 }
 .nav-tabs.columns > li > a:hover {
