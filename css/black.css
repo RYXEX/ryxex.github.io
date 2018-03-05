@@ -218,8 +218,8 @@ tr.clickable-row:hover {
   border: 0;
 }
 .nav-tabs.columns > li.active > a {
-  color: #fff;
-  background: #3c3c3c;
+  color: #35d976;
+  background: #2c2c2c;
   border: 0;
 }
 .nav-tabs.columns > li > a:hover {
@@ -229,8 +229,8 @@ tr.clickable-row:hover {
 }
 
 .nav-tabs.columns > li.active > a:hover {
-  background: #3c3c3c;
-  color: #fff;
+  background: #636363;
+  color: #35d976;
 }
 
 .input-xs {
@@ -393,7 +393,7 @@ pre code {
 
 #chartPrice {
   overflow: hidden;
-  background: #3c3c3c !important;
+  background: #2e2e2e !important;
 }
 
 #chartPrice [fill="#cccccc"] {
