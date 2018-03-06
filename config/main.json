@@ -31,6 +31,7 @@
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 }
   ],
   "tokens": [
+    { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 }
     { "addr": "0xbdc5bac39dbe132b1e030e898ae3830017d7d969", "name": "SNOV", "decimals": 18 },
     { "addr": "0x539efe69bcdd21a83efd9122571a64cc25e0282b", "name": "BLUE", "decimals": 8 },
     { "addr": "0xb8d8a92cafaf6c055bce8e53405d90be96d1a677", "name": "REDV", "decimals": 8 }
