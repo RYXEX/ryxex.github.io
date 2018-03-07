@@ -7,4 +7,5 @@ iframe {
     margin-bottom: 0px;
     overflow-x: auto;
     overflow-y: auto;
+    opacity: 50;
 }
