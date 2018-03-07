@@ -1,0 +1,34 @@
+iframe {
+    width: 100%;
+    height: 100%;
+    
+    border: 0;
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+}
+html {
+	width: 100%;
+	height: 100%;
+
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: 100%;
+	min-width: 100%;
+	min-height: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  background: #2e2e2e;
+  color: #c436e7;
+}
+
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
