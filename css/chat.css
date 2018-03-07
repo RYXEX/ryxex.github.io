@@ -2,25 +2,7 @@ iframe {
     width: 100%;
     height: 100%%
     border: 0;
-}
-
-html, body {
-    height: 100%;
-    margin: 0;
-}
-
-body > .container {
-    height: 100%; /* Fit the container into the window */
-}
-
-.row#main > div {
-    max-height: 100%; /* This doesn't */
-    overflow: auto;   /*    work :(   */
-}
-
-.row#input { /* Stick the input zone at the bottom */
     position: absolute;
     bottom: 0px;
-    width: 100%;
     margin-bottom: 0px;
 }
