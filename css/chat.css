@@ -21,10 +21,6 @@ body {
 	height: 100%;
 	min-width: 100%;
 	min-height: 100%;
-  overflow-x: auto;
-  overflow-y: hidden;
-  background: #2e2e2e;
-  color: #c436e7;
 }
 
 *,
