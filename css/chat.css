@@ -1,6 +1,6 @@
 iframe {
     width: 100%;
-    height: inherit;
+    height: 100vh;
     border: 0;
 }
 
