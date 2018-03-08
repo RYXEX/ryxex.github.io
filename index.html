@@ -185,13 +185,11 @@
     clear: both;
 }
 .shoutBoxContainer {
-	position:relative;
 	width:100%;
-	height: 90vh;
-  overflow-x: hidden;
-  overflow-y: hidden;
+	height:100%;
+  bottom:0px;
 	border:0px solid  #2e2e2e;
-	padding:5px;
+	padding:0px;
 	font-size:12px;
 	font-family: 'Abel', sans-serif;
 	border-radius:3px;
@@ -210,11 +208,10 @@
   opacity; (0.0);
 	cursor:pointer;
 	z-index:1;
-	position:absolute;
+	position:relative;
 	left:5px;
 	right:5px;
 	box-shadow: 0px 0px 0px 0px #2e2e2e;
-	-webkit-touch-callout: none;
 	-webkit-user-select: none;
 	-khtml-user-select: none;
 	-moz-user-select: none;
@@ -287,13 +284,14 @@
 	
 }
 .shoutChat {
-	position:relative;
-	left:0px;
+  position:relative;
+	left:5px;
 	right:5px;
-	top:35px;
-	bottom:50px;
-	overflow-y : hidden;
+	top:0px;
+	bottom:45px;
+	overflow-y : scroll;
 	overflow-x : hidden;
+
 }
 .shoutInputRed {
 	background-color:#F7CFD0;
@@ -301,13 +299,13 @@
 }
 
 .shoutInput {
-	position:absolute;
-	bottom:00px;
+	position: sticky;
+	bottom: 0px;
 	left:5px;
 	right:5px;
 	border-top:1px solid #CCC;
 	padding-top: 4px;
-	padding-bottom: 4px;
+	padding-bottom: 5px;
 	
 }
 :focus {outline:none;border:1px solid red}
@@ -323,25 +321,25 @@ width: calc(100% - 0px);
     /* padding-right: 10px; */
 }
 .shoutUserText {
-	font-weight:bold;
+	font-weight: none;
 	font-size:0.8em;
 }
 
 ::-webkit-scrollbar
 {
-  width: 0px;  /* for vertical scrollbars */
+  width: 1px;  /* for vertical scrollbars */
 }
 
 ::-webkit-scrollbar-track
 {
   background: rgba(0, 0, 0, 0.0);
-  border-radius:0px;
+  border-radius:1px;
 }
 
 ::-webkit-scrollbar-thumb
 {
   background: rgba(0, 0, 0, 0.0);
-  border-radius:0px;
+  border-radius:1px;
 }
 
 .privateChat {
@@ -390,7 +388,7 @@ width: calc(100% - 0px);
 }
 
 
-</style></script>                                     
+</style>                                     
                                                        </div>
                   <div role="tabpanel" class="tab-pane" id="myTrades"></div>
                   <div role="tabpanel" class="tab-pane" id="myOrders"></div>
