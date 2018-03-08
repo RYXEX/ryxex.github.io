@@ -8,6 +8,7 @@ iframe {
     overflow-x: auto;
     overflow-y: auto;
     opacity: 50;
+    chrome: 'transparent'
         ms-zoom: 0.75;
         -moz-transform: scale(0.75);
         -moz-transform-origin: 0 0;
