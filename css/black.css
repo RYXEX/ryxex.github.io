@@ -116,7 +116,7 @@ a.navbar-brand {
 .row-box {
   height: auto;
   color: #fff;
-  overflow-y: hidden;
+  overflow-y: auto;
 }
 
 .row-box.height1 {
