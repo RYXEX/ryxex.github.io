@@ -123,11 +123,7 @@
 #emailAdmin, #passwordAdmin, #loginAdminBtn, #forgottenEmail, #sendMyPasswordBtn {
     border: 1px solid #333;
     padding: 2px;
-    width: calc(100% - 30px);
-    height: calc(40vh-98px);
-    margin: 0px;
-    overflow-x: auto;
-    overflow-y: hidden;	
+    margin: 0px;	
 }
 .configPanel label {
 	margin-left:5px;
@@ -192,7 +188,7 @@
 .shoutBoxContainer {
 	position:relative;
 	width:100%;
-	height: relative;
+	height: 90vh;
   overflow-x: hidden;
   overflow-y: hidden;
 	border:0px solid  #2e2e2e;
@@ -200,6 +196,8 @@
 	font-size:12px;
 	font-family: 'Abel', sans-serif;
 	border-radius:3px;
+  background-color: #2e2e2e;
+  border: 0;
 	
 }
 .adminShoutBoxInput {
@@ -260,7 +258,7 @@
 }
 #shoutBoxUserList {
 	overflow:hidden;
-	max-height:120px;
+	max-height:100px;
 	overflow-y:hidden;
 	display:none;
 }
@@ -290,11 +288,11 @@
 	
 }
 .shoutChat {
-	position:absolute;
-	left:5px;
+	position:relative;
+	left:0px;
 	right:5px;
 	top:35px;
-	bottom:45px;
+	bottom:50px;
 	overflow-y : hidden;
 	overflow-x : hidden;
 }
@@ -337,14 +335,14 @@ width: calc(100% - 0px);
 
 ::-webkit-scrollbar-track
 {
-  background: rgba(0, 0, 0, 0.1);
+  background: rgba(0, 0, 0, 0.0);
   border-radius:0px;
 }
 
 ::-webkit-scrollbar-thumb
 {
-  background: rgba(0, 0, 0, 0.3);
-  border-radius:20px;
+  background: rgba(0, 0, 0, 0.0);
+  border-radius:0px;
 }
 
 .privateChat {
@@ -366,11 +364,6 @@ width: calc(100% - 0px);
 	bottom:0px;
 	right:0px;
 	background-color: #fff;
-}
-
-.shoutBoxContainer {
-background-color: #2e2e2e;
-border: 0;
 
 }
 
@@ -398,8 +391,7 @@ border: 0;
 }
 
 
-</style></script>
-                                                      
+</style></script>                                     
                                                        </div>
                   <div role="tabpanel" class="tab-pane" id="myTrades"></div>
                   <div role="tabpanel" class="tab-pane" id="myOrders"></div>
