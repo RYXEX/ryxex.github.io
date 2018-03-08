@@ -1,6 +1,6 @@
 iframe {
-    width: 200%;
-    height: calc(100vh - 200px);
+    width: 140%;
+    height: calc(70vh - 140px);
     border: 0;
     bottom: 0px;
     position: relative;
@@ -10,10 +10,10 @@ iframe {
     opacity: 50;
     chrome: 'transparent'
         ms-zoom: 0.75;
-        -moz-transform: scale(0.75);
+        -moz-transform: scale(0.714);
         -moz-transform-origin: 0 0;
-        -o-transform: scale(0.75);
+        -o-transform: scale(0.714);
         -o-transform-origin: 0 0;
-        -webkit-transform: scale(0.5);
+        -webkit-transform: scale(0.714);
         -webkit-transform-origin: 0 0;
 }
