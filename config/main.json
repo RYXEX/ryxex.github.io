@@ -25,7 +25,7 @@
   "userCookie": "EtherDelta",
   "eventsCacheCookie": "EtherDelta_eventsCache",
   "ordersCacheCookie": "EtherDelta_ordersCache",
-  "etherscanAPIKey": "GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE",
+  "etherscanAPIKey": "ZWWWHY5CW6JI5DHKKXC12EK57SJJEVESFJ",
   "ledgerPath": "m/44'/60'/0'/0",
   "bases": [
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "decimals": 18 }
