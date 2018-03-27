@@ -22,7 +22,7 @@
   "gasTrade": 250000,
   "gasOrder": 250000,
   "minOrderSize": 0.001,
-  "socketServer": ["https://socket01.etherdelta.com","https://socket02.etherdelta.com","https://socket03.etherdelta.com","https://socket04.etherdelta.com","https://socket05.etherdelta.com","https://socket06.etherdelta.com"],
+  "socketServer": ["https://socket01.ryxex.github.io","https://socket02.ryxex.github.io","https://socket03.ryxex.github.io","https://socket04.ryxex.github.io","https://socket05.ryxex.github.io","https://socket06.ryxex.github.io"],
   "userCookie": "RyxEx",
   "eventsCacheCookie": "RyxEx_eventsCache",
   "ordersCacheCookie": "RyxEx_ordersCache",
