@@ -1,4 +1,4 @@
-# EtherDelta bot sample code
+# RYXEX bot sample code
 
 For API documentation, see https://github.com/ryxex/ryxex.github.io/tree/master/docs.
 
